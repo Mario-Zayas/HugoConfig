@@ -1,0 +1,45 @@
+baseurl: "https://blog-mario.onrender.com/"
+languageCode: "en-us"
+title: "Blog de Mario"
+theme: "hugo-lithium-theme"
+googleAnalytics: ""
+disqusShortname: ""
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - section
+  - "404"
+
+permalinks:
+  post: /:title/
+  page: /:title/
+
+menu:
+  main:
+    - name: "Inicio"
+      url: "/"
+
+    - name: "Sobre mi"
+      url: "/sobre-mi"
+
+    - name: "Contacto"
+      url: "/contacto"
+
+    - name: "GitHub"
+      url: "https://github.com/Mario-Zayas"
+
+    - name: "Twitter"
+      url: "https://twitter.com"
+
+params:
+  mainSections:
+  - post
+  description: "Posts Proporcionados"
+  favicon: favicon.ico
+  logo:
+    url: logo.png
+    width: 50
+    height: 50
+    alt: Logo
+  icon:
+    url: favicon.ico
